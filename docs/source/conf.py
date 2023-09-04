@@ -13,7 +13,6 @@ version = '0.1.0'
 
 extensions = [
   "myst_parser",
-  "sphinx_design",
 ]
 
 source_suffix = [
