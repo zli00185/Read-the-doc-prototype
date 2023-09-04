@@ -43,7 +43,7 @@
   - Link to a failing run
 
 Example:
-- <img src="Buildmeister_process_figs/image1.png" style="width:3.40625in;height:1.82292in" />
+- ![Alt Text](Buildmeister_process_figs/image1.png)
 
 # Buildmeister instructions
 
