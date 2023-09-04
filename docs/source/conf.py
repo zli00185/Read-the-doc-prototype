@@ -12,13 +12,15 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'myst_parser',
+  "myst_parser",
+  "sphinx_design",
 ]
 
-source_suffix = { '.rst': 'restructuredtext',
-                  '.txt': 'markdown',
-                  '.md': 'markdown',
-}
+source_suffix = [
+    ".md",
+]
+
+myst_enable_extensions = ["colon_fence"]
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
